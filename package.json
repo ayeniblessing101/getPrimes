@@ -1,0 +1,22 @@
+{
+  "name": "getprimes",
+  "version": "1.0.0",
+  "description": "A function to generate prime numbers",
+  "main": "app/library.js",
+  "scripts": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayeniblessing101"
+  },
+  "keywords": [
+    "prime"
+  ],
+  "author": "Ayeni Blessing",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}

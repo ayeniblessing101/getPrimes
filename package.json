@@ -4,7 +4,7 @@
   "description": "A function to generate prime numbers",
   "main": "app/library.js",
   "scripts": {
-    "test": "tests"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",

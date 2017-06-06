@@ -17,13 +17,12 @@ module.exports = {
 
             for(var i = 2; i < n; i++)
             {
-                if(n % i === 0 || n % 1 === 0)
-                {
-                    primeNumbers.push(i);
-                }
-               return; 
-            }
+               if(n % i === 0)
+               {
 
+               } 
+            }
+            return primeNumbers.push(i);
         }
     }
 

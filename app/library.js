@@ -13,28 +13,18 @@ module.exports = {
         }
         else 
         {
-            let primeNumbers = [];
+            var primeNumbers = [];
 
-            for(let i = 3; i < n; i++)
+            for(var i = 3; i < n; i++)
             {
-                notPrime = primeNumbers.some(checkDivisibleNumber);
-                if(!notPrime)
+                if(n % n === 0 || n % 1 === 0)
                 {
                     primeNumbers.push(i);
                 }
+               return; 
             }
 
         }
-
-        function checkDivisibleNumber(j)
-        {
-            if i % j === 0
-            {
-                return primeNumbers;
-            }
-        }
-
-
     }
 
 }

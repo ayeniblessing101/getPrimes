@@ -22,16 +22,16 @@ describe('Generate Prime numbers for an Integer:', function(){
 
     describe('Return the generated prime numbers in a list', function () {
         it('should return [] for 0', function () {
-      expect(getPrimes(0)).toEqual([]);
-    });
+      expect(myApp.getPrimes(0)).toEqual([]);
+        });
 
-    it('should return [2, 3, 5, 7] for 10', function () {
-      expect(getPrimes(10)).toEqual([2, 3, 5, 7]);
-    });
+        it('should return [2, 3, 5, 7] for 10', function () {
+          expect(myApp.getPrimes(10)).toEqual([2, 3, 5, 7]);
+        });
 
-    it('should return [2, 3, 5, 7, 11, 13, 17, 19] for 20', function () {
-      expect(getPrimes(20)).toEqual([2, 3, 5, 7, 11, 13, 17, 19]);
-    });
+        it('should return [2, 3, 5, 7, 11, 13, 17, 19] for 20', function () {
+          expect(myApp.getPrimes(20)).toEqual([2, 3, 5, 7, 11, 13, 17, 19]);
+        });
     });
 
 });

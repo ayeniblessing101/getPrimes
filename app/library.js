@@ -15,9 +15,9 @@ module.exports = {
         {
             var primeNumbers = [];
 
-            for(var i = 3; i < n; i++)
+            for(var i = 2; i < n; i++)
             {
-                if(n % n === 0 || n % 1 === 0)
+                if(n % i === 0 || n % 1 === 0)
                 {
                     primeNumbers.push(i);
                 }

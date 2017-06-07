@@ -1,8 +1,5 @@
 # getPrimes
 
-Self Learning Clinic - Day 0
-<p>My Self Learning Clinic day 0 results </p>
-
 <h3>Project Details:</h3>
 <ul>
   <li>Language: JavaScript</li>
